@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
   //   res.send('<h1>Hello express!</h1>');
   res.render('home.hbs', {
     pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome my App!'
+    welcomeMessage: 'Welcome my nodes App!'
   });
 });
 
